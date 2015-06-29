@@ -2,7 +2,7 @@ node-zlib/
 node-modules/
 demo/
 src/
-lib/
+#lib/
 docs/
 playground/
 index.js
