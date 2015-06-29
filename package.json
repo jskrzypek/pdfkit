@@ -37,16 +37,7 @@
     "png-js": ">=0.1.0",
     "linebreak": "~0.1.0"
   },
-  "scripts": {
-    "prepublish": "",
-    "postpublish": ""
-  },
   "main": "lib/document",
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
   "engine": [
     "node >= v0.10.0"
   ]
