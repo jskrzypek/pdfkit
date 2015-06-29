@@ -38,10 +38,10 @@
     "linebreak": "~0.1.0"
   },
   "scripts": {
-    "prepublish": "make js",
-    "postpublish": "make clean"
+    "prepublish": "",
+    "postpublish": ""
   },
-  "main": "js/document",
+  "main": "lib/document",
   "browserify": {
     "transform": [
       "brfs"
