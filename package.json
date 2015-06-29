@@ -34,6 +34,7 @@
     "blob-stream": "^0.1.2"
   },
   "dependencies": {
+    "coffeeify": "^1.1.0",
     "fontkit": "^1.0.0",
     "linebreak": "~0.1.0",
     "png-js": ">=0.1.0"
@@ -43,11 +44,6 @@
     "postpublish": ""
   },
   "main": "lib/document",
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
   "engine": [
     "node >= v0.10.0"
   ]
