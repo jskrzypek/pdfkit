@@ -43,7 +43,7 @@
     "prepublish": "",
     "postpublish": ""
   },
-  "main": "lib/document",
+  "main": "bundle.js",
   "engine": [
     "node >= v0.10.0"
   ]
