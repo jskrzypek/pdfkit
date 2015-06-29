@@ -42,11 +42,6 @@
     "postpublish": "make clean"
   },
   "main": "js/document",
-  "browserify": {
-    "transform": [
-      "brfs"
-    ]
-  },
   "engine": [
     "node >= v0.10.0"
   ]
