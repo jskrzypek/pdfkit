@@ -92,7 +92,7 @@ class PDFFont
       hi = raw >> 16
       low = raw & 0xFF
       hi = -((hi ^ 0xFFFF) + 1) if hi & 0x8000 isnt 0
-      @italicAngle = 0+"#{hi}.#{low}"
+      @italicAngle = -(-"#{hi}.#{low}")
     else
       @italicAngle = 0
       
