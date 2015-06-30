@@ -41,7 +41,7 @@
     "prepublish": "make js",
     "postpublish": "make clean"
   },
-  "main": "js/document",
+  "main": "build/pdfkit",
   "browserify": {
     "transform": [
       "brfs"
